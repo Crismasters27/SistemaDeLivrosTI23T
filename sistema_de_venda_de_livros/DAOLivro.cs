@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,22 +8,21 @@ using MySql.Data.MySqlClient; // importando os comandos de conexão com o banco
 
 namespace SistemaDeLivros
 {
-    class DAOCliente
+    class DAOLivro
     {
         public MySqlConnection conexao;
         public string dados;
         public string comando;
         public int i;
         public int contar;
-        public int[] codigoCliente;
         public string[] nome;
-        public string[] telefone;
-        public string[] endereco;
-        public DateTime[] dtNascimento;
-        public string[] email;
-        public string[] senha;
+        public int[] codigoLivro;
+        public string[] descricao;
+        public string[] editora;
+        public int[] quantidade;
+        public decimal[] precoUnitario;
 
-        public DAOCliente()
+        public DAOLivro()
         {
             conexao = new MySqlConnection("server=localhost;Port=3307;DataBase=SistemaLivro;Uid=root;Password=;Convert Zero DateTime=True");
             try
@@ -39,12 +37,12 @@ namespace SistemaDeLivros
             }
         } // FIM DO CONSTRUTOR
 
-        public void InserirCliente(string nome, string telefone, string endereco, DateTime dtNascimento, string email, string senha)
+        public void InserirLivro(string nome, string descricao, string editora, int quantidade, decimal precoUnitario)
         {
             try
             {
-                this.dados = $"('','{nome}','{telefone}','{endereco}','{dtNascimento:yyyy-MM-dd}','{email}','{senha}')";
-                this.comando = $"INSERT INTO Cliente(codigoCliente,nome,telefone,endereco,dtNascimento,email,senha) VALUES{this.dados}";
+                this.dados = $"('','{nome}','{descricao}','{editora}','{quantidade}','{precoUnitario}')";
+                this.comando = $"INSERT INTO Livro(codigoLivro,nome,descricao,editora,quantidade,precoUnitario) VALUES{this.dados}";
                 MySqlCommand sql = new MySqlCommand(this.comando, this.conexao);
                 string resultado = "" + sql.ExecuteNonQuery();
                 Console.WriteLine($"Inserido com sucesso!\n\n {resultado}");
@@ -53,31 +51,27 @@ namespace SistemaDeLivros
             {
                 Console.WriteLine($"ERRO ENCONTRADO\n\n {erro}");
             }
-        } // FIM DO INSERIR CLIENTE
+        }
 
         public void PreencherVetor()
         {
-            string query = "SELECT * FROM Cliente";
+            string query = "SELECT * FROM Livro";
 
-            // instanciar vetores
-            this.codigoCliente = new int[100];
+            this.codigoLivro = new int[100];
             this.nome = new string[100];
-            this.telefone = new string[100];
-            this.endereco = new string[100];
-            this.dtNascimento = new DateTime[100];
-            this.email = new string[100];
-            this.senha = new string[100];
+            this.descricao = new string[100];
+            this.editora = new string[100];
+            this.quantidade = new int[100];
+            this.precoUnitario = new decimal[100];
 
-            // preencher com valores padrão
             for (int j = 0; j < 100; j++)
             {
-                this.codigoCliente[j] = 0;
+                this.codigoLivro[j] = 0;
                 this.nome[j] = "";
-                this.telefone[j] = "";
-                this.endereco[j] = "";
-                this.dtNascimento[j] = DateTime.MinValue;
-                this.email[j] = "";
-                this.senha[j] = "";
+                this.descricao[j] = "";
+                this.editora[j] = "";
+                this.quantidade[j] = 0;
+                this.precoUnitario[j] = 0;
             }
 
             MySqlCommand coletar = new MySqlCommand(query, this.conexao);
@@ -87,40 +81,39 @@ namespace SistemaDeLivros
             this.contar = 0;
             while (leitura.Read())
             {
-                this.codigoCliente[i] = Convert.ToInt32(leitura["codigoCliente"]);
+                this.codigoLivro[i] = Convert.ToInt32(leitura["codigoLivro"]);
                 this.nome[i] = leitura["nome"] + "";
-                this.telefone[i] = leitura["telefone"] + "";
-                this.endereco[i] = leitura["endereco"] + "";
-                this.dtNascimento[i] = Convert.ToDateTime(leitura["dtNascimento"]);
-                this.email[i] = leitura["email"] + "";
-                this.senha[i] = leitura["senha"] + "";
+                this.descricao[i] = leitura["descricao"] + "";
+                this.editora[i] = leitura["editora"] + "";
+                this.quantidade[i] = Convert.ToInt32(leitura["quantidade"]);
+                this.precoUnitario[i] = Convert.ToDecimal(leitura["precoUnitario"]);
                 i++;
                 this.contar++;
             }
             leitura.Close();
         } // FIM DO PREENCHER VETOR
 
-        public void ListarClientes()
+        public void ListarLivros()
         {
             this.PreencherVetor();
-            Console.WriteLine("\n----- LISTA DE CLIENTES -----");
+            Console.WriteLine("\n---- LISTA DE LIVROS ----");
             for (int j = 0; j < this.contar; j++)
             {
-                Console.WriteLine($"Código:       {this.codigoCliente[j]}");
-                Console.WriteLine($"Nome:         {this.nome[j]}");
-                Console.WriteLine($"Telefone:     {this.telefone[j]}");
-                Console.WriteLine($"Endereço:     {this.endereco[j]}");
-                Console.WriteLine($"Nascimento:   {this.dtNascimento[j]:dd/MM/yyyy}");
-                Console.WriteLine($"Email:        {this.email[j]}");
-                Console.WriteLine("-----------------------------");
+                Console.WriteLine($"Código:   {this.codigoLivro[j]}");
+                Console.WriteLine($"Nome: {this.nome[j]}");
+                Console.WriteLine($"Descrição:{this.descricao[j]}");
+                Console.WriteLine($"Editora:  {this.editora[j]}");
+                Console.WriteLine($"Estoque:  {this.quantidade[j]}");
+                Console.WriteLine($"Preço:    {this.precoUnitario[j]:C}");
+                Console.WriteLine("---------------------------");
             }
         } // FIM DO LISTAR
 
-        public void AtualizarCliente(int codigo, string nome, string telefone, string endereco, DateTime dtNascimento, string email, string senha)
+        public void AtualizarLivro(int codigoLivro, string descricao, string editora, int quantidade, decimal precoUnitario)
         {
             try
             {
-                this.comando = $"UPDATE Cliente SET nome='{nome}', telefone='{telefone}', endereco='{endereco}', dtNascimento='{dtNascimento:yyyy-MM-dd}', email='{email}', senha='{senha}' WHERE codigoCliente={codigo}";
+                this.comando = $"UPDATE Livro SET descricao='{descricao}', editora='{editora}', quantidade='{quantidade}', precoUnitario='{precoUnitario}' WHERE codigoLivro={codigoLivro}";
                 MySqlCommand sql = new MySqlCommand(this.comando, this.conexao);
                 string resultado = "" + sql.ExecuteNonQuery();
                 Console.WriteLine($"Atualizado com sucesso!\n\n {resultado}");
@@ -131,11 +124,11 @@ namespace SistemaDeLivros
             }
         } // FIM DO ATUALIZAR
 
-        public void ExcluirCliente(int codigo)
+        public void ExcluirLivro(int codigoLivro)
         {
             try
             {
-                this.comando = $"DELETE FROM Cliente WHERE codigoCliente={codigo}";
+                this.comando = $"DELETE FROM Livro WHERE codigoLivro={codigoLivro}";
                 MySqlCommand sql = new MySqlCommand(this.comando, this.conexao);
                 string resultado = "" + sql.ExecuteNonQuery();
                 Console.WriteLine($"Excluído com sucesso!\n\n {resultado}");
@@ -146,5 +139,5 @@ namespace SistemaDeLivros
             }
         } // FIM DO EXCLUIR
 
-    } // FIM DA CLASSE DAO CLIENTE
+    } // FIM DA CLASSE DAO LIVRO
 } // FIM DO PROJETO

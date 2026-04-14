@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistema_de_venda_de_livros", "sistema_de_venda_de_livros\sistema_de_venda_de_livros.csproj", "{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeLivros", "sistema_de_venda_de_livros\SistemaDeLivros.csproj", "{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

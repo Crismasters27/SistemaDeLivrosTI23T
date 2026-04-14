@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\controlcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\controlcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\daoreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\daoreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\controllivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\controllivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\controlfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\controlfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\daocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\daocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\daolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\daofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\daofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\controlreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\controlreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\controlcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\controlcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|c:\\users\\cristiano.sraimundo\\source\\repos\\sistemadelivrosti23t\\sistema_de_venda_de_livros\\daocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C1AB2B-65A6-49E2-ACA8-0D6E2AE47E15}|sistema_de_venda_de_livros\\sistema_de_venda_de_livros.csproj|solutionrelative:sistema_de_venda_de_livros\\daocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DAOCliente.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOCliente.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\DAOCliente.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOCliente.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\DAOCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:49:22.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\Program.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\Program.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\Program.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:14:14.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CONTROLCliente.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLCliente.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\CONTROLCliente.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLCliente.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\CONTROLCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:50:28.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CONTROLCompra.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLCompra.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\CONTROLCompra.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLCompra.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\CONTROLCompra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:26:59.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CONTROLFuncionario.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLFuncionario.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\CONTROLFuncionario.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLFuncionario.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\CONTROLFuncionario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:28:10.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CONTROLLivro.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLLivro.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\CONTROLLivro.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLLivro.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\CONTROLLivro.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:28:40.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CONTROLReserva.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLReserva.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\CONTROLReserva.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\CONTROLReserva.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\CONTROLReserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:29:07.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DAOFuncionario.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOFuncionario.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\DAOFuncionario.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOFuncionario.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\DAOFuncionario.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAK4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:49:51.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DAOLivro.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOLivro.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\DAOLivro.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOLivro.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\DAOLivro.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAI4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:15:21.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAOReserva.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOReserva.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\DAOReserva.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOReserva.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\DAOReserva.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAIoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:20:36.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DAOCompra.cs",
+              "DocumentMoniker": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOCompra.cs",
+              "RelativeDocumentMoniker": "sistema_de_venda_de_livros\\DAOCompra.cs",
+              "ToolTip": "C:\\Users\\cristiano.sraimundo\\source\\repos\\SistemaDeLivrosTI23T\\sistema_de_venda_de_livros\\DAOCompra.cs",
+              "RelativeToolTip": "sistema_de_venda_de_livros\\DAOCompra.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAJQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:10:12.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
